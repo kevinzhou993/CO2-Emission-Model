@@ -6,6 +6,18 @@ historical fuel consumption data, electric vehicle datasets, and on-chain vehicl
 
 The goal is to estimate and analyze vehicle-level CO2 emissions when direct emission data is unavailable.
 
+## Why This Project
+Vehicle-level CO2 emission data is often incomplete or unavailable, especially for electric and hybrid vehicles.
+This project addresses that gap by learning emission patterns from historical fuel consumption data and
+mapping them to vehicles with missing emission records.
+
+## My Contribution
+- Designed the end-to-end data pipeline across heterogeneous datasets
+- Performed data cleaning, feature alignment, and preprocessing
+- Implemented and evaluated a Random Forest regression model for CO2 estimation
+- Analyzed model behavior and results for downstream sustainability analysis
+- Additional methodological details are provided in the accompanying documentation file
+
 ---
 
 ## Data Sources
